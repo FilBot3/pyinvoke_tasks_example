@@ -22,7 +22,7 @@ poetry add invoke
 How to see available tasks
 
 ```bash
-invoke --list
+poetry run invoke --list
 Available tasks:
 
 ex01.hello-world   Hello, World! task
@@ -31,7 +31,7 @@ ex01.hello-world   Hello, World! task
 Then to run this, execute:
 
 ```bash
-invoke ex01.hello-world
+poetry run invoke ex01.hello-world
 ```
 
 ## Development and Testing
