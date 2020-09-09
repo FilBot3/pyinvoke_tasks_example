@@ -10,4 +10,4 @@ from . import example_tasks_01
 
 # This allows us to namespace our files.
 namespace = Collection()
-namespace.add_collection(ex01, name='ex01')
+namespace.add_collection(example_tasks_01, name='ex01')
